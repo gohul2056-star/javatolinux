@@ -132,22 +132,46 @@
 
 //     }}
 
-public class hello {
-    public static void main (String args[]){
-        int score;
-        System.out.print("Enter your score: ");
+// public class hello {
+//     public static void main (String args[]){
+//         int score;
+//         System.out.print("Enter your score: ");
+//         Scanner scan = new Scanner(System.in);
+//         score = scan.nextInt();
+//         if (score < 50){
+//             System.out.println("You need to improve");
+
+//         }
+//         else if(score < 70){
+//             System.out.println ("Good job");
+
+//         }
+//         else {
+//             System.out.println("Excellent");
+//         }
+//     }
+// }
+
+public class hello{
+    public static void main(String args[]){
+        int m1,m2,m3,m4,m5;
         Scanner scan = new Scanner(System.in);
-        score = scan.nextInt();
-        if (score < 50){
-            System.out.println("You need to improve");
-
-        }
-        else if(score < 70){
-            System.out.println ("Good job");
-
-        }
-        else {
-            System.out.println("Excellent");
-        }
+        System.out.print("Enter marks for subject 1: ");
+        m1 = scan.nextInt();
+        System.out.print("Enter marks for subject 2: ");
+        m2 = scan.nextInt();
+        System.out.print("Enter marks for subject 3: ");
+        m3 = scan.nextInt();    
+        System.out.print("Enter marks for subject 4: ");
+        m4 = scan.nextInt();
+        System.out.print("Enter marks for subject 5: ");
+        m5 = scan.nextInt();
+        int total = m1 + m2 + m3 + m4 + m5;
+        int avg = total / 5;
+        System.out.println("Total marks: " + total);
+        System.out.println("Average marks:" + avg);
+        if (avg > 40 ){
+            System.out.println ("GOOD TO GO!!!");
+        } 
     }
 }
