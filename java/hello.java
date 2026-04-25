@@ -102,25 +102,32 @@
 //     }
 // }
 
-class hello{
+// class hello{
 
-    String studentId;
+//     String studentId;
 
-    hello(){
-       int studentId = 11244010;
-        System.out.println(studentId);
-    }
-    void display(String Grade){
-        System.out.println("Student Name: Gohul M.R");
-        studentId = Grade;
-        System.out.println("Grade:" + studentId);
+//     hello(){
+//        int studentId = 11244010;
+//         System.out.println(studentId);
+//     }
+//     void display(String Grade){
+//         System.out.println("Student Name: Gohul M.R");
+//         studentId = Grade;
+//         System.out.println("Grade:" + studentId);
 
-    }
-    public static void main(String[] args){
-        hello id = new hello();
-        id.display("O");
+//     }
+//     public static void main(String[] args){
+//         hello id = new hello();
+//         id.display("O");
        
         
+//     }
+// }
+
+
+public class hello{
+    public static void main (String args[]){
+        System.out.println ("hello githu");
+
     }
 }
-
