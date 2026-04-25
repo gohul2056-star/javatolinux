@@ -1,4 +1,4 @@
-// import java.util.Scanner;
+ import java.util.Scanner;
 
 // public class hello{
 // 	public static void main(String args[]){
@@ -125,9 +125,29 @@
 // }
 
 
-public class hello{
-    public static void main (String args[]){
-        System.out.println ("hello gitHub");
 
+// public class hello{
+//     public static void main (String args[]){
+//         System.out.println ("hello gitHub");
+
+//     }}
+
+public class hello {
+    public static void main (String args[]){
+        int score;
+        System.out.print("Enter your score: ");
+        Scanner scan = new Scanner(System.in);
+        score = scan.nextInt();
+        if (score < 50){
+            System.out.println("You need to improve");
+
+        }
+        else if(score < 70){
+            System.out.println ("Good job");
+
+        }
+        else {
+            System.out.println("Excellent");
+        }
     }
 }
