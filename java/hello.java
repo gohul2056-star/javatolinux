@@ -1,3 +1,4 @@
+ import java.util.Arrays;
  import java.util.Scanner;
 
 // public class hello{
@@ -193,29 +194,42 @@
 //     }
 // }
 
+// public class hello{
+//     public static void main(String args[]){
+//         int age;
+//         int salary;
+//         int loan;
+//         Scanner scan = new Scanner(System.in);
+//         System.out.print("Enter your age:");
+//         age = scan.nextInt();
+//         System.out.print("Enter your salary:");
+//         salary = scan.nextInt();
+//         if (age >= 26 && salary >= 20000){
+//             System.out.println("You are eligible for a loan");    
+//         }
+//         else {
+//             System.out.println("You are not eligible for a loan");
+//         }
+//         System.out.print("Enter the loan amount you want to apply for:");
+//         loan =scan.nextInt();
+//         if (loan <= 60000){
+//             System.out.println("Your loan is approved");
+//         }
+//         else{
+//             System.out.println("Maximum loan amount is 60000");
+//         }
+//     }
+// }
+
 public class hello{
     public static void main(String args[]){
-        int age;
-        int salary;
-        int loan;
+        int [] numbers = new int[6];
         Scanner scan = new Scanner(System.in);
-        System.out.print("Enter your age:");
-        age = scan.nextInt();
-        System.out.print("Enter your salary:");
-        salary = scan.nextInt();
-        if (age >= 26 && salary >= 20000){
-            System.out.println("You are eligible for a loan");    
+        System.out.println("Enter 6 numbers:");
+        for (int i =1; i<=5; i++){
+            numbers[i] =scan.nextInt();
+            System.out.println("YOU ENTERED:" + numbers[i]);
         }
-        else {
-            System.out.println("You are not eligible for a loan");
-        }
-        System.out.print("Enter the loan amount you want to apply for:");
-        loan =scan.nextInt();
-        if (loan <= 60000){
-            System.out.println("Your loan is approved");
-        }
-        else{
-            System.out.println("Maximum loan amount is 60000");
-        }
+        System.out.println("YOU ENTERED:" + Arrays.toString(numbers));
     }
 }
