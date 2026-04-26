@@ -152,26 +152,49 @@
 //     }
 // }
 
-public class hello{
+// public class hello{
+//     public static void main(String args[]){
+//         int m1,m2,m3,m4,m5;
+//         Scanner scan = new Scanner(System.in);
+//         System.out.print("Enter marks for subject 1: ");
+//         m1 = scan.nextInt();
+//         System.out.print("Enter marks for subject 2: ");
+//         m2 = scan.nextInt();
+//         System.out.print("Enter marks for subject 3: ");
+//         m3 = scan.nextInt();    
+//         System.out.print("Enter marks for subject 4: ");
+//         m4 = scan.nextInt();
+//         System.out.print("Enter marks for subject 5: ");
+//         m5 = scan.nextInt();
+//         int total = m1 + m2 + m3 + m4 + m5;
+//         int avg = total / 5;
+//         System.out.println("Total marks: " + total);
+//         System.out.println("Average marks:" + avg);
+//         if (avg > 40 ){
+//             System.out.println ("GOOD TO GO!!!");
+//         } 
+//     }
+// }
+// public class hello {
+//     public static void main(String[] args) {
+//         String color;
+//         System.out.println("Enter a color: ");
+//         Scanner signal = new Scanner(System.in);
+//         color = signal.nextLine();
+//         if (color.equals("red")) {
+//             System.out.println("STOP");
+//         } else if (color.equals("yellow")) {
+//             System.out.println("SLOW DOWN");
+//         } else if (color.equals("green") || color.equals("blue")) {
+//             System.out.println("GO");
+//         } else {
+//             System.out.println("ARE YOU COLOR BLIND?");
+//         }
+//     }
+// }
+
+public class main(){
     public static void main(String args[]){
-        int m1,m2,m3,m4,m5;
-        Scanner scan = new Scanner(System.in);
-        System.out.print("Enter marks for subject 1: ");
-        m1 = scan.nextInt();
-        System.out.print("Enter marks for subject 2: ");
-        m2 = scan.nextInt();
-        System.out.print("Enter marks for subject 3: ");
-        m3 = scan.nextInt();    
-        System.out.print("Enter marks for subject 4: ");
-        m4 = scan.nextInt();
-        System.out.print("Enter marks for subject 5: ");
-        m5 = scan.nextInt();
-        int total = m1 + m2 + m3 + m4 + m5;
-        int avg = total / 5;
-        System.out.println("Total marks: " + total);
-        System.out.println("Average marks:" + avg);
-        if (avg > 40 ){
-            System.out.println ("GOOD TO GO!!!");
-        } 
+        
     }
 }
