@@ -193,8 +193,29 @@
 //     }
 // }
 
-public class main(){
+public class hello{
     public static void main(String args[]){
-        
+        int age;
+        int salary;
+        int loan;
+        Scanner scan = new Scanner(System.in);
+        System.out.print("Enter your age:");
+        age = scan.nextInt();
+        System.out.print("Enter your salary:");
+        salary = scan.nextInt();
+        if (age >= 26 && salary >= 20000){
+            System.out.println("You are eligible for a loan");    
+        }
+        else {
+            System.out.println("You are not eligible for a loan");
+        }
+        System.out.print("Enter the loan amount you want to apply for:");
+        loan =scan.nextInt();
+        if (loan <= 60000){
+            System.out.println("Your loan is approved");
+        }
+        else{
+            System.out.println("Maximum loan amount is 60000");
+        }
     }
 }
