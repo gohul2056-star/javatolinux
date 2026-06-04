@@ -1,8 +1,4 @@
- import java.util.Arrays;
- import java.util.Scanner;
-
-// public class hello{
-// 	public static void main(String args[]){
+import java.util.Scanner;
 // 	Scanner scanner = new Scanner(System.in); 
         
 //         String name = scanner.nextLine();
@@ -221,15 +217,56 @@
 //     }
 // }
 
+// 
+
+// public class hello{
+//     public static void main(String args[]){
+//         int a;
+//         int b=10;
+//         for(a=5;a<=b;a++){
+//             System.out.println(a + " ");
+//         }
+        
+//     }
+// }
+
+// 
+
+// public class hello{
+//     public static void main(String args[]){
+//         int a;
+//         Scanner scan = new Scanner(System.in);
+//         System.out.print("Enter the size of the array:");
+//         a = scan.nextInt();
+//         int [] numbers = new int[a];
+//         for (int i=0;i<a;i++){
+//             System.out.print("Enter number " + (i+1) + ":");
+//             numbers[i] = scan.nextInt();
+//         }
+//         for (int i = 0; i<a;i++){
+//             System.out.print(numbers[i]);
+//         }
+
+
+//     }
+// }
+
 public class hello{
     public static void main(String args[]){
-        int [] numbers = new int[6];
+        System.out.println("enter the array index:");
         Scanner scan = new Scanner(System.in);
-        System.out.println("Enter 6 numbers:");
-        for (int i =1; i<=5; i++){
-            numbers[i] =scan.nextInt();
-            System.out.println("YOU ENTERED:" + numbers[i]);
-        }
-        System.out.println("YOU ENTERED:" + Arrays.toString(numbers));
+        int i = scan.nextInt();
+             int[] arr = {12, 9, 5, 18, 2};
+     int sum = 0;
+     for (; i<arr.length;i++){
+        sum += arr[i];    
+     }
+     if (sum % 2 ==0){
+        System.out.println("Even");
+     }
+     else{
+        System.out.println("odd");
+     }
+
     }
 }
