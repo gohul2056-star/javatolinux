@@ -1,4 +1,314 @@
 import java.util.Scanner;
+
+// public class hello{
+// 	public static void main(String args[]){
+// 	Scanner scanner = new Scanner(System.in); 
+        
+//         String name = scanner.nextLine();
+//         int total =scanner.nextInt();
+//         scanner.nextLine(); 
+//         String dept =scanner.nextLine();
+//         System.out.println("Enter your Name" + name);
+
+//         System.out.println("Enter total Scorce" + total/10);
+	    
+        
+//         System.out.println("Enter your Department" + dept);
+        
+
+	
+	
+	
+
+// }
+// }
+// public class hello{
+// public static void main(String args[]){
+// 	int a =5;
+// 	if (a%2==0){
+// 	System.out.println("Even");
+	
+// }
+// 	else {
+// 	System.out.println("odd");
+// }
+// }
+// }
+
+// public class hello{
+// public static void main(String args[]){
+// 	int score = 80;
+// 	if (score <= 50){
+// 	System.out.println("You need to improve");
+
+// }
+// 	else if(score < 50 && score < 70){
+// 	System.out.println("Good job");
+
+// }
+// 	else if (score>70){
+// System.out.println("Excellent");
+// }		
+
+// }
+// }
+
+// public class hello{
+    
+//     public static void main(String args[]){
+       
+//         for(int i=7;i<=10;i++){
+//             System.out.print(i + " ");
+//         }
+//         System.out.println();
+//         for(int i=4;i<=6;i++){
+//             System.out.print(i + " ");
+//         }
+//         System.out.println();
+//         for(int i=2;i<=3;i++){
+//             System.out.print(i + " ");
+        
+//         }
+//         System.out.println();
+//         System.err.println(1);
+//     }
+// }
+// public class hello{
+//     public static void main (String args[]){
+//         int count =10;
+//         int i =4;
+//         while (i>=1){
+//             int add = count - i + 1;
+//             int num = add;
+//             while (num <= count){
+//                 System.out.print(num + " ");
+//                 num ++;
+//             } 
+//             System.out.println();
+//             count = count - i;
+//             i--;
+//         }
+//     }
+// }
+
+//public class hello{
+//     public static void main(String[] args){
+//         String [] word = {"hello","world","java"};
+//        for (String w: word){
+//         System.out.print(w + " ");
+//         }
+
+
+//     }
+// }
+
+// class hello{
+
+//     String studentId;
+
+//     hello(){
+//        int studentId = 11244010;
+//         System.out.println(studentId);
+//     }
+//     void display(String Grade){
+//         System.out.println("Student Name: Gohul M.R");
+//         studentId = Grade;
+//         System.out.println("Grade:" + studentId);
+
+//     }
+//     public static void main(String[] args){
+//         hello id = new hello();
+//         id.display("O");
+       
+        
+//     }
+// }
+
+// class hello{
+//     public static void main(String args[]){ 
+        
+//       int marks = 40;
+
+// if(marks >= 50)
+//     System.out.println("Pass");
+// else
+//     System.out.println("Fail");
+//     }
+// }
+
+// class Hello{
+//     public static int square(int a){
+//     return a *a;
+// }
+// public static void main(String args[]){
+// System.out.println(square(2));
+// }
+// }
+
+// class Employee{
+//     String name;
+//     double salary;
+//    // String role;
+//     void display(){
+//         System.out.println("Name:" + name);
+//         System.out.println("Salary:" + salary);
+//         //System.out.println("Role:" + role);
+//     }
+// }
+// public class hello{
+//     public static void main(String[] args){
+//         Employee e1 = new Employee();
+//         e1.name = "Gohul M.R";
+//         e1.salary = 50000;
+//         //e1.role = "CEO";
+//         e1.display();
+//     }
+// }
+
+
+// class Book{
+//     String title;
+//     double price;
+//     Book(String title, double price){
+//         this.title = title;
+//         this.price = price;
+//     }
+//     void display(){
+//         System.out.println("Title:" + title);
+//         System.out.println("Price:" + price);
+//     }
+// }
+// public class hello{
+//     public static void main(String[] args){
+//         Book b1 = new Book("Java Basics", 499.0);
+//         b1.display();
+//     }
+// }
+
+// class BankAccount{
+//     private double balance;
+//     public void setBalance(double balance){
+//         this.balance = balance;
+//     }
+//     public double getBalance(){
+//         return balance;
+//     }
+// }
+// public class hello{
+//     public static void main(String[] args){
+//         BankAccount myacc = new BankAccount();
+//         myacc.setBalance(10000);
+//         System.out.println(myacc.getBalance());
+
+//     }
+// }
+
+// class vehicle{
+//     String brand;
+// }
+// class Car extends vehicle{
+//     int speed;
+// }
+// public class hello{
+//     public static void main(String[] args){
+//         Car mycar = new Car();
+//         mycar.brand = "Toyata";
+//         mycar.speed = 120;
+//         System.out.println("Brand:" + mycar.brand);
+//         System.out.println("Speed:" + mycar.speed);
+//     }
+// }
+
+
+// class Person{
+//     void introduce() {
+//         System.out.println("I am a person");
+//     }
+// }
+
+// class Student extends Person {
+//     @Override
+//     void introduce() {
+//         System.out.println("I am a student");
+//     }
+// }
+
+// public class hello{
+//     public static void main(String[] args){
+//         Person p = new Student();
+//         p.introduce();
+
+//     }
+// }
+
+// abstract class Shape {
+//     abstract void draw();
+// }
+
+// class Circle extends Shape {
+//     @Override
+//     void draw(){
+//         System.out.println("Drawing a Circle");
+//     }
+// }
+// public class hello{
+//     public static void main(String[] args){
+//         Shape s = new Circle();
+//         s.draw();
+//     }
+// }
+
+// interface Payment{
+//     void pay();
+// }
+
+// class CreditCardPayment implements Payment{
+//     @Override
+//     public void pay(){
+//         System.out.println("Payment Done Using Credit Card");
+//     }
+// }
+
+// public class hello{
+//     public static void main(String[] args){
+//         Payment paye = new CreditCardPayment();
+//         paye.pay();
+//     }
+// }
+
+// class hello{
+//     public static void main(String[] args){
+//         int[] num = {1,2,3};
+//         try{
+//             System.out.println(num[5]);
+//                 }
+//         catch (ArrayIndexOutOfBoundsException e){
+//             System.out.println("Array is limited to 3 elements");
+//         }
+//         finally{
+//             System.out.println("Program can be continued");
+//         }
+//     }
+// } 
+// import java.util.ArrayList;
+// class hello{
+//     public static void main(String[] args){
+//         ArrayList<Integer> numbers = new ArrayList<>();
+//         numbers.add(10);
+//         numbers.add(20);
+//         numbers.add(30);
+//         numbers.add(40);
+//         int sum = 0;
+//         for (Integer num : numbers){
+//             sum += num;
+//         }
+//         System.out.println("Sum = " + sum);
+//     }
+// }
+
+
+
+import java.util.Scanner;
 // 	Scanner scanner = new Scanner(System.in); 
         
 //         String name = scanner.nextLine();
