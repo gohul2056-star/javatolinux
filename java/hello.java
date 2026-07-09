@@ -308,7 +308,7 @@ import java.util.Scanner;
 
 
 
-import java.util.Scanner;
+//import java.util.Scanner;
 // 	Scanner scanner = new Scanner(System.in); 
         
 //         String name = scanner.nextLine();
@@ -561,26 +561,26 @@ import java.util.Scanner;
 //     }
 // }
 
-public class hello{
-    public static void main(String args[]){
-        System.out.println("enter the array index:");
-        Scanner scan = new Scanner(System.in);
-        int i = scan.nextInt();
-             int[] arr = {12, 9, 5, 18, 2};
-     int sum = 0;
-     for (; i<arr.length;i++){
-        sum += arr[i];    
-     }
-     if (sum % 2 ==0){
-        System.out.println("Even");
-     }
-     else{
-        System.out.println("odd");
-     }
+// public class hello{
+//     public static void main(String args[]){
+//         System.out.println("enter the array index:");
+//         Scanner scan = new Scanner(System.in);
+//         int i = scan.nextInt();
+//              int[] arr = {12, 9, 5, 18, 2};
+//      int sum = 0;
+//      for (; i<arr.length;i++){
+//         sum += arr[i];    
+//      }
+//      if (sum % 2 ==0){
+//         System.out.println("Even");
+//      }
+//      else{
+//         System.out.println("odd");
+//      }
 
-    }
-}
-import java.util.Scanner;
+//     }
+// }
+// import java.util.Scanner;
 
 // public class hello{
 // 	public static void main(String args[]){
@@ -934,4 +934,63 @@ import java.util.Scanner;
 // 	}
 // }
 
-interface 
+// class Animal{
+//    void sound(){
+//       System.out.println("AnimaL makes sound");
+//    }
+// }
+// // 
+// class Dog extends Animal {
+//    // @Override
+//     @Override
+//    //  
+//     void sound() {
+//          System.out.println("Dog Barks");
+//    }
+//   }
+// public class hello{
+
+//    public static void main(String[] args){
+//       Animal a = new Dog();
+//       a.sound();
+//    }
+// }
+
+// abstract class Shape{
+//    abstract void draw();
+//       void display() {
+//          System.out.println("Rectangle cannot be square");
+//       }
+// }
+
+// class circle extends Shape{
+//    @Override
+//    void draw(){
+//       System.out.println("Circle is round");
+//    }
+// }
+// public class hello{
+//    public static void main(String[] args){
+//       Shape s = new circle();
+//       s.draw();
+//       s.display();
+//    }
+// }
+
+// interface Payment{
+//    void pay();
+// }
+// class cardpayment implements Payment{
+//    // 
+//    @Override 
+//    public void pay(){
+//    System.out.println("Payment done");
+//    }
+// }
+// public class hello{
+//    public static void main(String[] args){
+//       Payment Paid = new cardpayment();
+//       Paid.pay();
+//    }
+// }
+
