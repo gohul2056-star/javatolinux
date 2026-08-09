@@ -561,26 +561,26 @@ import java.util.Scanner;
 //     }
 // }
 
-public class hello{
-    public static void main(String args[]){
-        System.out.println("enter the array index:");
-        Scanner scan = new Scanner(System.in);
-        int i = scan.nextInt();
-             int[] arr = {12, 9, 5, 18, 2};
-     int sum = 0;
-     for (; i<arr.length;i++){
-        sum += arr[i];    
-     }
-     if (sum % 2 ==0){
-        System.out.println("Even");
-     }
-     else{
-        System.out.println("odd");
-     }
+// public class hello{
+//     public static void main(String args[]){
+//         System.out.println("enter the array index:");
+//         Scanner scan = new Scanner(System.in);
+//         int i = scan.nextInt();
+//              int[] arr = {12, 9, 5, 18, 2};
+//      int sum = 0;
+//      for (; i<arr.length;i++){
+//         sum += arr[i];    
+//      }
+//      if (sum % 2 ==0){
+//         System.out.println("Even");
+//      }
+//      else{
+//         System.out.println("odd");
+//      }
 
-    }
-}
-import java.util.Scanner;
+//     }
+// }
+// import java.util.Scanner;
 
 // public class hello{
 // 	public static void main(String args[]){
@@ -934,4 +934,131 @@ import java.util.Scanner;
 // 	}
 // }
 
-interface 
+
+//@FunctionalInterface
+// interface  Square{
+//     int find(int n);
+// } 
+// public class hello{
+//     public static void main(String[] args){
+//         Square s = (n) -> n * n;
+//         System.out.println(s.find(5));
+//     }
+// }
+
+// @FunctionalInterface
+// interface Message{
+//     void show();
+
+// }
+
+// public class hello{
+//     public static void main(String[] args){
+
+//         Message m = () -> System.out.println("welcome to java 8");
+//         m.show();
+//     }
+// }
+
+// import java.util.ArrayList;
+
+// class City{
+
+    
+
+//     ArrayList<String> cities = new ArrayList<>();
+//     City(){
+//     cities.add("Chennai");
+//     cities.add("Madurai");
+//     cities.add("Coimbatore");
+//     }
+
+//     void display(){
+
+//     cities.forEach(System.out::println);
+
+//     }
+
+// }
+
+// class Square{
+
+//     ArrayList<Integer> num = new ArrayList<>();
+//     int n;
+//     Square(){
+//         num.add(2);
+//         num.add(3);
+//         num.add(4);
+//     }
+//     void display(){
+//         System.out.println(n * n);
+//         num.forEach(System.out::println);
+//     }
+
+// }
+
+// public class hello {
+//     public static void main(String[] args){
+//         City c1 = new City();
+//         Square s = new Square();
+//         s.display();
+//         c1.display();
+//     }
+// }
+
+// import java.util.ArrayList;
+
+// class hello{
+//     public static void main(String[] args){
+//     ArrayList<Integer> num = new ArrayList<>();
+    
+//     num.add(12);
+//     num.add(25);
+//     num.add(8);
+//     num.add(40);
+//     num.add(19);
+
+//     num.stream()
+//         .filter (n -> n > 20)
+//         .forEach(System.out::println);
+
+
+//     }
+// }
+
+// import java.util.ArrayList;
+
+// class hello{
+//     public static void main(String[] args){
+//         ArrayList<Integer> marks = new ArrayList<>();
+//         marks.add(60);
+//         marks.add(75);
+//         marks.add(90);
+//         marks.stream()
+//             .map(n -> n+10)
+//             .forEach(System.out::println);
+
+
+//     }
+// }
+
+import java.util.ArrayList;
+
+// class hello{
+//     public static void main(String[] args){
+//         ArrayList<Integer> numbers = new ArrayList<>();
+//         numbers.add(5);
+//         numbers.add(10);
+//         numbers.add(15);
+//         numbers.add(20);
+//         numbers.add(25);
+//         numbers.add(30);
+//         numbers.stream()
+//             .filter(n -> n > 10)
+//             .map(n -> n*3)
+//             .forEach(System.out::println);
+
+
+//     }
+// }
+
