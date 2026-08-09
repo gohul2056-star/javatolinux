@@ -308,7 +308,7 @@ import java.util.Scanner;
 
 
 
-import java.util.Scanner;
+//import java.util.Scanner;
 // 	Scanner scanner = new Scanner(System.in); 
         
 //         String name = scanner.nextLine();
@@ -934,6 +934,7 @@ import java.util.Scanner;
 // 	}
 // }
 
+<<<<<<< HEAD
 
 //@FunctionalInterface
 // interface  Square{
@@ -1060,5 +1061,65 @@ import java.util.ArrayList;
 
 
 //     }
+=======
+// class Animal{
+//    void sound(){
+//       System.out.println("AnimaL makes sound");
+//    }
+// }
+// // 
+// class Dog extends Animal {
+//    // @Override
+//     @Override
+//    //  
+//     void sound() {
+//          System.out.println("Dog Barks");
+//    }
+//   }
+// public class hello{
+
+//    public static void main(String[] args){
+//       Animal a = new Dog();
+//       a.sound();
+//    }
+// }
+
+// abstract class Shape{
+//    abstract void draw();
+//       void display() {
+//          System.out.println("Rectangle cannot be square");
+//       }
+// }
+
+// class circle extends Shape{
+//    @Override
+//    void draw(){
+//       System.out.println("Circle is round");
+//    }
+// }
+// public class hello{
+//    public static void main(String[] args){
+//       Shape s = new circle();
+//       s.draw();
+//       s.display();
+//    }
+// }
+
+// interface Payment{
+//    void pay();
+// }
+// class cardpayment implements Payment{
+//    // 
+//    @Override 
+//    public void pay(){
+//    System.out.println("Payment done");
+//    }
+// }
+// public class hello{
+//    public static void main(String[] args){
+//       Payment Paid = new cardpayment();
+//       Paid.pay();
+//    }
+>>>>>>> 38433ade6654d44c9f0eb2aa5dade1083715653d
 // }
 
